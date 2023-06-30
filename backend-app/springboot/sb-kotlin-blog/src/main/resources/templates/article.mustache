@@ -1,0 +1,17 @@
+{{> header}}
+
+<section class="article">
+    <header class="article-header">
+        <h2 class="article-title">{{article.title}}</h2>
+        <div class="article-meta">
+            By <strong>{{article.author.firstName}}</strong>, on <strong>{{article.addedAt}}</strong>
+        </div>
+    </header>
+    <div class="article-description">
+        {{article.headline}}
+
+        {{article.content}}
+    </div>
+</section>
+
+{{> footer}}

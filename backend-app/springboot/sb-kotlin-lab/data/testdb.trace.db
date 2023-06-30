@@ -1,0 +1,30 @@
+2023-06-29 21:07:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE [*]IF MOT EXISTS MESSAGES("; expected "identifier"; SQL statement:
+CREATE TABLE IF MOT EXISTS MESSAGES( [42001-214]
+2023-06-29 21:08:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS MESSAGES([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS MESSAGES( [42001-214]
+2023-06-29 21:10:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into messages ([*]?, ?)"; expected "identifier"; SQL statement:
+insert into messages (?, ?) [42001-214]
+2023-06-29 21:10:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into messages ([*]?, ?)"; expected "identifier"; SQL statement:
+insert into messages (?, ?) [42001-214]
+2023-06-29 21:10:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into messages ([*]?, ?)"; expected "identifier"; SQL statement:
+insert into messages (?, ?) [42001-214]
+2023-06-29 21:12:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into messages ([*]?, ?)"; expected "identifier"; SQL statement:
+insert into messages (?, ?) [42001-214]
+2023-06-29 21:12:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into messages ([*]?, ?)"; expected "identifier"; SQL statement:
+insert into messages (?, ?) [42001-214]
+2023-06-29 21:12:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into messages ([*]?, ?)"; expected "identifier"; SQL statement:
+insert into messages (?, ?) [42001-214]
+2023-06-29 21:14:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into messages ([*]?, ?)"; expected "identifier"; SQL statement:
+insert into messages (?, ?) [42001-214]
+2023-06-29 21:14:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into messages ([*]?, ?)"; expected "identifier"; SQL statement:
+insert into messages (?, ?) [42001-214]
