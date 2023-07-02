@@ -1,0 +1,50 @@
+### CREATE CUSTOMERS
+POST http://localhost:8080/customers
+Content-Type: application/json
+
+{
+  "id": "100",
+  "firstName": "Jane",
+  "lastName": "Smith",
+  "email": "jane.smith@example.com"
+}
+
+###
+POST http://localhost:8080/customers
+Content-Type: application/json
+
+{
+"id": "101",
+"firstName": "John",
+"lastName": "Smith",
+"email": "john.smith@example.com"
+}
+
+###
+POST http://localhost:8080/customers
+Content-Type: application/json
+
+{
+  "id": "102",
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com"
+}
+
+### GET ALL CUSTOMERS
+GET http://localhost:8080/customers
+Accept: application/json
+
+### GET CUSTOMER BY ID
+GET http://localhost:8080/customers/100
+Accept: application/json
+
+### GET CUSTOMER BY INVALID ID
+GET http://localhost:8080/customers/1000
+Accept: application/json
+
+### DELETE CUSTOMER
+DELETE http://localhost:8080/customers/102
+
+### DELETE CUSTOMER INVALID ID
+DELETE http://localhost:8080/customers/10020
